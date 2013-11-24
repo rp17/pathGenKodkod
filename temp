@@ -1,0 +1,12 @@
+---OUTCOME---
+SATISFIABLE
+
+---INSTANCE---
+relations: {Node=[[Node1], [Node2], [Node3], [Node4]], Edge=[[Edge1], [Edge2], [Edge3], [Edge4]], start_loop=[], end_loop=[], loop_set=[], corresp=[], begin=[[Edge1, Node1], [Edge2, Node2], [Edge3, Node3], [Edge4, Node2]], end=[[Edge1, Node2], [Edge2, Node3], [Edge3, Node4], [Edge4, Node3]], $e=[[Edge4]], $d=[[Edge3]], Start=[[Node1]], Finish=[[Node4]]}
+ints: []
+
+---STATS---
+p cnf 221 326
+primary variables: 44
+translation time: 114 ms
+solving time: 6 ms
